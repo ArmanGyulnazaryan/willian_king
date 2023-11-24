@@ -1,0 +1,78 @@
+.touch {
+  // .touch__info
+
+  // .touch__title
+
+  &__title {
+    color: var(--c-white);
+    font-size: 44px;
+    font-weight: 700;
+    margin: 90px 0 17px;
+
+    span {
+      color: var(--c-primary);
+      font-size: 44px;
+      font-weight: 700;
+    }
+  }
+
+  // .touch__desc
+
+  &__desc {
+    color: var(--c-body);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    max-width: 460px;
+    margin-bottom: 40px;
+  }
+
+  // .touch__list
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  // .touch__form
+
+  // .touch__input
+
+  &__input {
+    display: block;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    background: var(--c-dark2);
+    padding: 12px;
+    color: var(--c-body);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 144%;
+    letter-spacing: 0.16px;
+    border: 1px solid transparent;
+    transition: 0.2s al;
+  }
+
+  // .touch__btn
+}
+.field {
+  // .field__textarea
+
+  &__textarea {
+    display: block;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    padding: 12px;
+    border-radius: 4px;
+    background: var(--c-dark2);
+    color: var(--c-body);
+    min-height: 139px;
+    max-height: 300px;
+    resize: vertical;
+    margin-bottom: 24px;
+  }
+}

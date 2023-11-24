@@ -1,0 +1,39 @@
+.footer {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  // .footer__contact
+
+  &__contact {
+    color: var(--c-white);
+    font-size: 16px;
+    font-weight: 400;
+
+    span {
+      color: var(--c-primary);
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  // .footer__nav
+
+  &__nav {
+    // .footer__ul
+  }
+  &__ul {
+    display: flex;
+    gap: 24px;
+  }
+
+  // .footer__li
+  a {
+    color: var(--c-white);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &__li {
+  }
+}
